@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+}
+
+
+.logo {
+    font-size: 30px;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 9px;
+}
+
+.logo:hover{
+    color: white;
+    text-decoration: wavy;
+    cursor: pointer;
+}
+
+.list{
+    display: flex;
+    
+}
+
+.list li {
+    margin-left: 20px;
+    font-size: 20px;
+    list-style:none
+}
+
+
+.active {
+    color: blue;
+
+}
+
+.inactive {
+    color: white;
+    text-decoration: none;
+
+}
